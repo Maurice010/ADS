@@ -27,4 +27,4 @@ Modifiers:
  
 Lookup:
  - bool isMember(T x) - searches for element 'x', if found returns true.
- - void printSet() - prints all the elements.
+ - void printSet() - prints all the elements that are in the set.
