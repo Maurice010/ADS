@@ -1,11 +1,13 @@
+-= DESCRIPTION =-
 Set implementation based on array and binary search. Elements in the array are sorted in non-decreasing order.
 
+-= FILES =-
 set_array_v1.hpp 
  - uses binary search implemeted by hand
 set_array_v2.hpp
  - uses std::lower_bound
 
- -= STRUCTURE =-
+-= STRUCTURE =-
 Member functions:
  - (constructor) - constructs the set with given size (default = 4).
  - (destructor) - destructs the set.
