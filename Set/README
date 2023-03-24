@@ -13,10 +13,10 @@ Member functions:
  - int binarySearchNearest(T x) - uses binary search to find the first element that is equal or bigger than given key. If exact value was found it returns its index, if not then the index of the of the first element that is greater than 'x' is returned. If all elements are smaller than 'x' then index to the last element + 1 is returned.
 
 Capacity:
- - int size() - returns set size
+ - int size() - returns set size.
 
 Modifiers:
- - void insert(T x) - insert element so non-decreasing order preserved.
+ - void insert(T x) - inserts 'x' so non-decreasing order preserved.
  - bool remove(T x) - removes 'x', returns true if successful 
  - T pop(T x) - searches for 'x', erases it from the set and returns it.
  - T pop() - pops last element
