@@ -5,6 +5,7 @@ set_array_v1.hpp
 set_array_v2.hpp
  - uses std::lower_bound
 
+ -= STRUCTURE =-
 Member functions:
  - (constructor) - constructs the set with given size (default = 4).
  - (destructor) - destructs the set.
