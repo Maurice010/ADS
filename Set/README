@@ -4,3 +4,9 @@ set_array_v1.hpp
  - uses binary search implemeted by hand
 set_array_v2.hpp
  - uses std::lower_bound
+
+Member functions:
+ - (constructor) - constructs the set with given size (default = 4)
+ - (destructor) - destructs the set
+ - void resizeArray() - doubles the size of the set if it becomes full and scales it down if load factor < 0.25
+ - 
