@@ -10,3 +10,16 @@ Algorithms and Data Structures
  - adding cmake files
  - adding unit tests
  - adding more data structures and algorithms (mainly graphs and trees)
+ 
+Data structures:
+ - Singly linked list
+ - Doubly linked list
+ - Queue
+ - Priority queue
+ - Stack
+ - Binary search tree
+ - Hash table
+ - Set
+ 
+Sorting algorithms:
+ - 
