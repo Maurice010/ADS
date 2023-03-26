@@ -23,4 +23,9 @@ Data structures:
  - Set
  
 Sorting algorithms:
- - 
+ - heap sort
+ - quick sort
+ - insertion sort
+ - selection sort
+ - merge sort
+ - bubble sort
