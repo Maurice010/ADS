@@ -10,7 +10,7 @@ Algorithms and Data Structures
  - adding cmake files
  - adding unit tests
  - adding more data structures and algorithms (mainly graphs and trees)
- 
+________________________________________________________________________________________
 
 Data structures:
  - Singly linked list
