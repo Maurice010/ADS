@@ -6,6 +6,7 @@ Algorithms and Data Structures
  - that includes implementing templates and concepts
  - fixing some bad practicies like using #define instead of const
  - adding more documentation
+ - adding more functionalites in some cases
  - using header files
  - adding cmake files
  - adding unit tests
