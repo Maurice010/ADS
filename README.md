@@ -1,7 +1,7 @@
 # ADS
 Algorithms and Data Structures
 
-!!! about to be updated in short time (next 5-7 days) !!!
+!!! about to be updated in short time (next 2-3 days) !!!
 
  - that includes implementing templates and concepts
  - fixing some bad practicies
