@@ -1,0 +1,24 @@
+-= DESCRIPTION =-
+Priority queue implementation based on binary heap.
+
+-= FILES =-
+priority_queue.hpp 
+
+-= STRUCTURE =-
+Member functions:
+ - (constructor) - constructs the priority queue with given size (default = 4).
+ - (destructor) - destructs the priority queue.
+ - void expandArray() - doubles the size of the array if it becomes full.
+ - void shrinkArray() - scales the array down by half if load factor < 0.25.
+ - void heapifyDown(int index) - creates max heap when object is deleted.
+ - void heapifyUp(int index) - creates max heap when object is inserted.
+ - int binarySearchNearest(T x) - uses binary search to find the first element that is equal or bigger than given key. If exact value was found it returns its index, if not then the index of the of the first element that is greater than 'x' is returned. If all elements are smaller than 'x' then index to the last element + 1 is returned.
+
+Modifiers:
+ - void insert(T object, int priority) - inserts object with given priority
+ - QueueElement extractMax() - returns element with highest priority and removes it
+ 
+Lookup:
+ - QueueElement max() - returns element with highest priority without removing it
+ 
+ QueueElement is a class that contains object and its priority.

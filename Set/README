@@ -1,0 +1,32 @@
+-= DESCRIPTION =-
+Set implementation based on array and binary search. Elements in the array are sorted in non-decreasing order.
+
+-= FILES =-
+set_array_v1.hpp 
+ - uses binary search implemeted by hand
+set_array_v2.hpp
+ - uses std::lower_bound
+
+-= STRUCTURE =-
+Member functions:
+ - (constructor) - constructs the set with given size (default = 4).
+ - (destructor) - destructs the set.
+ - void resizeArray() - doubles the size of the set if it becomes full and scales it down by half if load factor < 0.25.
+ - int binarySearchNearest(T x) - uses binary search to find the first element that is equal or bigger than given key. If exact value was found it returns its index, if not then the index of the of the first element that is greater than 'x' is returned. If all elements are smaller than 'x' then index to the last element + 1 is returned.
+
+Capacity:
+ - int size() - returns set size.
+
+Modifiers:
+ - void insert(T x) - inserts 'x' so non-decreasing order preserved.
+ - bool remove(T x) - removes 'x', returns true if successful 
+ - T pop(T x) - searches for 'x', erases it from the set and returns it.
+ - T pop() - pops last element
+ 
+ - Set setUnion(Set<T>& x) - returns set union of this and given set 'x'.
+ - Set setDifference(Set<T>& x) - returns set difference of this and given set 'x'.
+ - Set setIntersection(Set<T>& x) - returns set intersection of this and given set 'x'.
+ 
+Lookup:
+ - bool isMember(T x) - searches for element 'x', if found returns true.
+ - void printSet() - prints all the elements that are in the set.
