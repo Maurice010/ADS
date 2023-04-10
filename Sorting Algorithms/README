@@ -1,8 +1,9 @@
-SortingAlgorithms.cpp contains implementation of:
+sorting_algorithms.cpp contains implementation of:
 - heap sort
 - quick sort
 - insertion sort
 - selection sort
 - merge sort
 - bubble sort
-and method to measure their sorting time.
+main.cpp - method to measure their sorting time.
+tests.cpp - basic tests for each algorithms (will be written better)
