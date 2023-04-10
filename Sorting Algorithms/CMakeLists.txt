@@ -29,7 +29,6 @@ add_executable(${PROJECT_NAME}_test
 )
 
 target_link_libraries(${PROJECT_NAME}_test
-    GTest::gtest
     GTest::gtest_main
 )
 
